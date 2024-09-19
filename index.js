@@ -1,7 +1,8 @@
-let number = Math.floor(Math.random() * 10 - 5)
+let nameUser = "Дима"
 
-console.log(number)
-
-if (number < 0) {
-    console.log("Число отрицательное")
+function PrintNameUser (name) {
+    console.log("Привет ",name)
 }
+
+PrintNameUser(nameUser)
+PrintNameUser("Саша")
