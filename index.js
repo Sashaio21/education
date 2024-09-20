@@ -1,7 +1,6 @@
-let arrayNumber = [5,1]
+let ageUser = prompt("Сколько вам лет")
+let nameUser = prompt("Как вас зовут")
 
-const sumTwoNumber = (a, b) => a+b
+let majority = ageUser < 18 ? "Вы несовршеннолетний" : nameUser == "admin" ? "Доступ разрешен" : "Доступ запрещен"
 
-let sum = sumTwoNumber(arrayNumber[0], arrayNumber[1])
-
-console.log(sum)
+console.log(majority)
