@@ -1,8 +1,7 @@
-let nameUser = "Дима"
+let arrayNumber = [5,1]
 
-function PrintNameUser (name) {
-    console.log("Привет ",name)
-}
+const sumTwoNumber = (a, b) => a+b
 
-PrintNameUser(nameUser)
-PrintNameUser("Саша")
+let sum = sumTwoNumber(arrayNumber[0], arrayNumber[1])
+
+console.log(sum)
